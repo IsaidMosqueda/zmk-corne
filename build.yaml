@@ -18,9 +18,12 @@
 #
 ---
 include:
-  - board: nrfmicro_13
+  - board: nrfmicro@1.3.0/nrf52840/zmk
     shield: corne_left
-  - board: nrfmicro_13
+    artifact-name: corne_left-nrfmicro_13-zmk
+  - board: nrfmicro@1.3.0/nrf52840/zmk
     shield: corne_right
-  - board: nrfmicro_13
+    artifact-name: corne_right-nrfmicro_13-zmk
+  - board: nrfmicro@1.3.0/nrf52840/zmk
     shield: settings_reset
+    artifact-name: settings_reset-nrfmicro_13-zmk
